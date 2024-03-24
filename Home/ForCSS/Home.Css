@@ -1,0 +1,49 @@
+/* about us page */
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#whoAreWe{
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    margin: 40px;
+    background: url(../PIC/AI\ CLUB\ BG-0٢.png) no-repeat;
+	background-size: cover;
+	letter-spacing: 0.2px;
+    
+  
+}
+#whoAreWe h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #27bcb6;
+}
+
+h2{
+    color: #ffffff;
+}
+
+
+.button{
+    height: 45px;
+    margin: 35px 0
+  }
+
+
+  .button input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #a5bccc, #598eb6);
+  }
+ 
