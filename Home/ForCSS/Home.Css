@@ -1,4 +1,7 @@
 
+body{
+ 
+}
 .row_FOr_Logo_And_des{
     text-align: right;
     display: grid;
@@ -7,12 +10,14 @@
     background: url(../PIC/AI\ CLUB\ BG-0٢.png) no-repeat;
     background-size: cover;
   }
- 
+ .ForLogoImage{
+
+  margin-right: 100px;
+ }
   #CORE{
     border-radius: 10px;
-    padding: 70px;
   
-     letter-spacing: 0.2px;
+   
     
   
   }
@@ -24,7 +29,8 @@
   
 
   .intro{
-    margin-left: 100px;
+ 
+    
   }
   h4{
     color: #ffffff;
@@ -63,18 +69,23 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 50px;
   }
   .card{
-    border-radius: 20px;
+   
+    
   
   }
+
   
-  
-  
+  .Current{
+    text-align: right;
+  }
+
   .card:hover{
    
   
-    border: 6px solid  #3705ff;
+    border: 6px solid  #4493c5;
       
   }
   
@@ -108,18 +119,7 @@
   
   
   
-  .service > * {
-    flex: 1 1 100%;
-  }
-  .CurrentConferences
-  {
-    font-size: 40px;
-    font-weight: bold;
-    color: #ffffff;
-  
-    border-radius: 100px;
-    
-  }
+
   
     
     
@@ -148,7 +148,6 @@
     padding: 70px;
     margin: 40px;
     background: url(../PIC/AI\ CLUB\ BG-0٢.png) no-repeat;
-    background-size: cover;
      letter-spacing: 0.2px;
     
   } 
