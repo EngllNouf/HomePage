@@ -3,29 +3,77 @@ body{
  
 }
 .row_FOr_Logo_And_des{
-    text-align: right;
+    text-align: left;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 100PX ;
-    background: url(../PIC/AI\ CLUB\ BG-0٢.png) no-repeat;
-    background-size: cover;
+     padding: 100PX ;
+     padding-top: 200px ;
+   
+   
+   
+  }
+  #CORE {
+   background-color: rgb(0, 0, 0);
+
+    
+    
   }
  .ForLogoImage{
-
-  margin-right: 100px;
+ margin-top: -50px;
+  margin-left :150px;
  }
-  #CORE{
-    border-radius: 10px;
+
+ /* for nav bar*/
+
+ nav {
+ 
+}
+ .navbar-brand img {
+  width: 60px;
+
+
+
   
-   
-    
   
+}
+.navbar-nav {
+  align-items: center;
+  
+}
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+}
+@media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 100px;
   }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+}
+
+
   #CORE h2{
     font-size: 50px;
     font-weight: bold;
-    color: #27bcb6;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #1d5694, #ffffff);
   }
+
+  h2 {
+   
+  }
+
+  
+ 
+
+
+  
   
 
   .intro{
@@ -33,7 +81,8 @@ body{
     
   }
   h4{
-    color: #ffffff;
+
+    color:#777777;
   }
   
   
@@ -54,7 +103,8 @@ body{
     letter-spacing: 1px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background: linear-gradient(135deg, #a5bccc, #598eb6);
+    background: linear-gradient(135deg, #000000, #1d5694);
+   
   }
   
   
@@ -147,8 +197,7 @@ body{
     align-items: center;
     padding: 70px;
     margin: 40px;
-    background: url(../PIC/AI\ CLUB\ BG-0٢.png) no-repeat;
-     letter-spacing: 0.2px;
+background-color: #213260;     letter-spacing: 0.2px;
     
   } 
   .card {
