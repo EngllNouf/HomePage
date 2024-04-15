@@ -171,6 +171,63 @@ body{
     border: 6px solid  #887aa6;
   
   }
+
+
+
+
+.containerForButton {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btnForWork {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btnForWork:hover {
+  transition: 1s ease-in-out;
+  background-color: #213260;
+}
+
+.btnForWork:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btnForWork span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
   
   
   
@@ -202,7 +259,7 @@ body{
     align-items: center;
     padding: 70px;
     margin: 40px;
-background-color: #213260;     letter-spacing: 0.2px;
+      background-color: #213260;     letter-spacing: 0.2px;
     
   } 
   .card {
@@ -217,22 +274,40 @@ background-color: #213260;     letter-spacing: 0.2px;
   
   
  
+  @media (min-width: 576px) and (max-width: 768px) {
+    .carousel-inner .row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .ForLogoImage{
+     display: none;
+      }
+  }
+
   
-     
+  @media (min-width: 768px) and (max-width: 992px) {
+    .carousel-inner .row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
     
-      
-  
-  
-  
-    
-  
-  
-  
-  
+    .ForLogoImage{
+      display: none;
+       }
+  }
   
   
     
   
+  
+  
+  
+  
+  
+    
   
   
   
